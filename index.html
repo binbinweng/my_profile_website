@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Jane Doe - Portfolio</title>
+    <link rel="stylesheet" href="./style.css"/>
+    <script src="./script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <nav>
+      <div id="home">
+        <div class="profile_name">
+          Binbin Weng
+          <div class="contact_info">
+            <img src="html_finalprojimages/envelope.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          jdoe@jeemail.com
+        </div>
+        <div style="clear:both;"></div>
+        <div class="contact_info">
+          <img src="html_finalprojimages/phone.png" alt="https://icons8.com/icon/124377/circled-envelope"/>
+          +13456764598
+
+        </div>
+        </div>
+        <div class="topdiv">
+          <a class="topmenu" href="#about-me">About Me</a>
+          <!-- Add the links for Skills, Projects and Recommendation here -->
+          <a class="topmenu" href="#skills">Skills</a>
+          <a class="topmenu" href="#projects">Projects</a>
+          <a class="topmenu" href="#recommendations">Recommendations</a>
+        
+
+        </div>
+      </div>    
+    </nav>
+
+    <!-- About Me -->
+    <section id="about-me" class="container">
+      <div>
+        <img src="https://c1912z2808.r-cdn.com/blog/margo-gru-cute-female-cartoon-character.webp" class="profile_image"/>
+      </div>
+
+      <div>
+          <h1>
+            Hi, I'm Binbin Weng! <img src="html_finalprojimages/waving-hand.png" width="60px"/>
+          </h1>
+          <p>
+            I am a Data Scientist with 2 years of experience.
+            I am familiar with data management, data analysis, data visualization, hypothesis testing etc. 
+            I am comfortable with SQL, Python, Spark, Hadoop, Hive, etc. 
+            I had a lot of project experience in building machine learning models and deep learning models. 
+          </p>
+      </div>
+    </section>
+              
+    <!-- Skills -->
+    <section id="skills">
+      <h2>Skills</h2>
+      <div style="clear:both;"></div>
+
+      <div class="all_skills">
+        <div class="skill">
+          <img src="html_finalprojimages/html5.png"/>
+          <h6>HTML</h6>
+          <p>2 years experience</p>
+        </div>  
+
+        <div class="skill">
+          <img src="html_finalprojimages/js.jpeg"/>
+          <h6>JavaScript</h6>
+          <p>3 years experience</p>
+        </div>  
+
+        <!-- Add more skills here -->
+        <div class="skill">
+            <img src="html_finalprojimages/CSS3.png"/>
+            <h6>CSS</h6>
+            <p>2 years experience</p>
+        </div>  
+
+        <div class="skill">
+            <img src="https://minhphanjavahome.files.wordpress.com/2019/04/java_logo_640.jpg?w=1200&h=800&crop=1"/>
+            <h6>Java</h6>
+            <p>3 years experience</p>
+        </div>  
+
+        <div class="skill">
+            <img src="https://i0.wp.com/junilearning.com/wp-content/uploads/2020/06/python-programming-language.webp?fit=800%2C800&ssl=1"/>
+            <h6>Python</h6>
+            <p>6 years experience</p>
+        </div>  
+
+        <div class="skill">
+            <img src="https://miro.medium.com/v2/resize:fit:1200/1*RK50G3R8xeRtANWAkJE6Mw.png"/>
+            <h6>SQL</h6>
+            <p>6 years experience</p>
+        </div> 
+
+      </div>
+    </section>
+          
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2>
+        Projects
+      </h2>
+      <div style="clear:both;"></div>
+
+        <div id="projects-container" class="projects-container">
+          <div class="project-card">
+            <h3>Edge Computing</h3>
+            <ul>
+              <li>Applied an energy efficient scheduling method using HEFT and DUPRS algorithms, which extends the scheduling length slightly to save energy, to a hierarchical orchestration framework, which is better suited for geo-distributed edge computing environment than the state-of-the-art.</li>
+              <li>Deployed and tested the framework across clusters of Raspberry Pi’s located in diverse geographical regions.</li>
+              <li>Tested and compared the performance of DAG applications, orchestrated using Docker containers and deployment descriptors, on the new framework against the industry-standard K3S platform.</li>
+              <li>Results indicated a noteworthy reduction in energy consumption ranging from 14% to 43% compared to K3S, while maintaining scheduling lengths within a margin of 2% to 9% longer. This efficiency enhancement presents an attrac-tive tradeoff for edge computing scenarios.</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Disease Inference on Clinical Healthcare Text Data</h3>
+            <ul>
+              <li>Extracted symptoms from clinical text data with the techniques of MetaMap and NLTK.</li>
+              <li>Represented symptoms using TF-IDF and Word2Vec methods. </li>
+              <li>Built a multi-label classifier for disease inference using BiGRU and BiLSTM with the two representations using PyTorch, achieving an AUC of 0.856, which is much higher than that of BiLSTM with the word sequence (0.743).</li>
+            </ul>
+          </div>
+          <hr>
+          <div class="project-card">
+            <h3>Cloud Computing</h3>
+            <ul>
+              <li>Built a database on AWS Glue for data in CSV files by creating S3 bucket, crawling data from S3 bucket to the da-tabase, and utilizing Glue Studio jobs for data manipulation, which is ready for other teams to analyze the data with AWS Athena. </li>
+              <li>Deployed two classification models (free and premium), by creating containers with AWS EKS with load balancing, which ensures that at least 3 containers will be working for the premium model when the workload is high. </li>
+            </ul>
+          </div>
+    </div>
+    </section>
+    <div style="clear:both;"></div>
+
+    <!-- Recommendations -->
+    <section id="recommendations">
+      <h2>Recommendations</h2>
+      <div style="clear:both;"></div>
+      <div class="all_recommendations" id="all_recommendations">
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Binbin is a very quick learner. 
+          She is self-motivated. 
+          She is adaptable, patient, and committed to continuous learning, always striving to bridge theoretical knowledge with practical applications.
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          It is very nice to work with Binbin.
+          She is nice and hard working.
+          She has strong critical thinking and know how to solve problems effciently. 
+          <span>&#8221;</span>
+        </div>
+        <div class="recommendation">
+          <span>&#8220;</span>
+          Binbin was a very good student in school. 
+          She was curious about some technical details and eager to ask questions when she took my course.
+          In addition, she never hesitated to share her thinking and ideas with me and her classmates.
+          <span>&#8221;</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recommendation Form -->
+    <section id="contact">
+      <div class="flex_center">
+        <fieldset>
+          <legend class="introduction">Leave a Recommendation</legend>          
+          <input type="text" placeholder="Name (Optional)"> <br/>
+          <textarea id="new_recommendation" cols="500" rows="10" placeholder="Message"></textarea>
+          <div class="flex_center">
+            <button id="recommend_btn" onclick="addRecommendation()">Submit</button>
+          </div>
+        </fieldset>
+      </div>
+    </section>
+
+    <div class="iconbutton">
+      <a href="#home">
+        <!--Add the code here for the logo to appear and the icon to be actionable-->
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="white" width="63px">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M15 11.25l-3-3m0 0l-3 3m3-3v7.5M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+      </a>
+    </div>
+
+    <div class="popup" id="popup" class="flex_center">
+      <img src="html_finalprojimages/checkmark--outline.svg"/>
+      <h3>Thanks for leaving a recommendation!</h3>
+      <button onclick="showPopup(false)">Ok</button>
+    </div>
+  </body>
+</html>
